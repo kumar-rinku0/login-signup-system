@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login-webpage</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="js/alert.js"></script>
+  </head>
+
+  <body>
+    <div class="alert"></div>
+    <div class="container">
+      <div class="display-container">
+        <button class="btn gray" id="login">log-in</button>
+        <button class="btn darkgray" id="signup">sign-up</button>
+      </div>
+      <div class="login">
+        <form action="dashboard.html" class="login-form" id="login">
+          <input
+            placeholder="username"
+            type="text"
+            id="login-username"
+            autocomplete="off"
+            required
+          />
+          <input
+            placeholder="password"
+            type="password"
+            id="login-password"
+            required
+          />
+          <div class="checkbox-container">
+            <input type="checkbox" class="checkbox" name="checkbox" />
+            <span>remember password.</span>
+          </div>
+          <button class="submit" type="submit">log-in</button>
+        </form>
+      </div>
+      <div class="signup hide">
+        <form action="dashboard.html" class="signup-form" id="signup">
+          <input
+            placeholder="username"
+            type="text"
+            id="signup-username"
+            autocomplete="off"
+            required
+          />
+          <input
+            placeholder="email"
+            type="email"
+            id="signup-email"
+            autocomplete="off"
+            required
+          />
+          <input
+            placeholder="password"
+            type="password"
+            id="signup-password"
+            required
+          />
+          <div class="checkbox-container">
+            <input type="checkbox" class="checkbox" name="checkbox" required />
+            <span>i agree with turms and condintions.</span>
+          </div>
+          <button class="submit" type="submit">sign-up</button>
+        </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

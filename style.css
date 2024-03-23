@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 5rem;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.display-container {
+  width: 15rem;
+  /* padding: 1rem; */
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  background-color: darkgray;
+}
+
+.gray {
+  background-color: gray;
+}
+.darkgray {
+  background-color: darkgray;
+}
+
+.hide {
+  display: none;
+}
+.btn {
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  transition: 0.5s;
+}
+.submit {
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  transition: 0.5s;
+}
+.submit:hover {
+  background-color: dimgray;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+.login-container,
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form#login,
+form#signup {
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  transition: 0.5s;
+}
+input {
+  height: 2rem;
+  border: none;
+  overflow: hidden;
+  border-bottom: 1px solid darkgray;
+  outline: none;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+span {
+  font-size: 0.8rem;
+}
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+.alert-box {
+  width: 90%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  color: #fff;
+}
+.alert-box p {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.alert-btn:hover {
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.alert-btn {
+  padding: 1rem;
+  background: transparent;
+  border: none;
+  color: #fff;
+}
